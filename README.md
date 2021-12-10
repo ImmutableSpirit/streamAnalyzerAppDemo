@@ -6,5 +6,5 @@ After downloading the repository, type `dotnet run` in the terminal at the proje
 
 When you see the homepage, additional instructions are provided for interacting with the application.
 
-For a smooth experience, I've made it simple to update the bearer token if you choose to.
-The field is `twitterBearerToken` in appsettings.json. <span style="color:gray;"> Ordinarily I would store this as an environment variable or use a cloud-based vault.</span>
+You will need to supply your own Twitter API bearer token in the configuration.
+The field is `twitterBearerToken` in appsettings.json. <span style="color:gray;"></span>
